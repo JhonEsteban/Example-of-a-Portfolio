@@ -1,0 +1,27 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --scrollBar: 17px;
+}
+body{
+    /* font-family: sans-serif; */
+}
+
+#container{
+    width: 98%;
+    margin: 0px auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    min-height: 800px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 3px #ccc;
+}
+
+#cabecera{
+    width: cal(100vw - var(--scrollBar));
+    height: 55px;
+    background-color: blue;
+}
