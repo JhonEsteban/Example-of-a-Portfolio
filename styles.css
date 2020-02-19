@@ -1,6 +1,6 @@
+/* ESTILOS GENERALES */
 *, *::before, *::after{
-    margin: 0;
-    padding: 0;
+
     box-sizing: border-box;
 }
 :root{
@@ -8,32 +8,91 @@
     --ColorBanner: #9dbfd8;
 }
 body{
-    /* font-family: sans-serif; */
+    margin: 0;
+    padding: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+
+/* CONTENEDOR */
 #container{
     width: 98%;
     margin: 0px auto;
     margin-top: 5px;
     margin-bottom: 5px;
-    min-height: 800px;
+    min-height: 1000px;
     border: 1px solid #ccc;
     box-shadow: 0px 0px 3px #ccc;
 }
 
-#cabecera{
+/* HEADER */
+#main-header{
     width: cal(100vw - var(--scrollBar));
     background-color: #fafafa;
     padding: 10vmin 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
-#cabecera span{
-    margin-left: 20px;
+#main-header span{
+    margin-left: 12px;
     color: black;
     font-size: 28px;
 
 }
-.banner{
+
+
+/* MENU */
+.main-menu{
+    height: 11rem;
+    margin: 0px auto;
+    background-color: #7a3434;
+    display: flex;
+    flex-flow: column wrap;
+    display: none;
+    transition: all 100ms;
+
+}
+ .main-nav{
+  margin: 0px auto;
+}
+
+.main-menu  li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-menu  li a{
+    display: block;
+    padding: 8px;
+    color: white;
+}
+
+/* MENU BURGER */
+.main-menu-toggle{
+    
+    width: 2.4rem;
+    height: 1.6rem;
+    background: linear-gradient(#0d0404a1 20%, transparent 20%, transparent 40%, 
+    #0d0404a1 40%, #0d0404a1 60%, transparent 60%, transparent 80%, #282020a1 80%, #0d0404a1 100%);
+    margin-left: 85px;
+    cursor: pointer;
+}
+
+/* BANNER */
+.main-banner{
     width: 100%;
     height: 120vmin;
     background-color: var(--ColorBanner);
@@ -44,15 +103,30 @@ body{
     justify-content: center;
     align-items: center;
 }
-.banner h1,span{
+.main-banner h1,span{
    text-align: center;
 }
-.banner h1{
+.main-banner h1{
     margin-top: 0px;
     margin-bottom: 25px;
 }
 
-.banner span{
+.main-banner span{
     margin-top: 25px;
+}
+/* BOTON DEL BANNER */
+.btn-main{
+    display: block;
+    width: 75px;
+    text-decoration: none;
+    text-align: center;
+    background-color: brown;
+    color: white;
+    margin-top: 80px;
+    padding: 15px;
+    border-radius: 14px;
+}
+.btn-main:hover{
+    background-color: #9f4040;
 }
 
