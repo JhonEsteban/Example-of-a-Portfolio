@@ -5,6 +5,7 @@
 }
 :root{
     --scrollBar: 17px;
+    --ColorBanner: #9dbfd8;
 }
 body{
     /* font-family: sans-serif; */
@@ -13,8 +14,8 @@ body{
 #container{
     width: 98%;
     margin: 0px auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     min-height: 800px;
     border: 1px solid #ccc;
     box-shadow: 0px 0px 3px #ccc;
@@ -22,21 +23,36 @@ body{
 
 #cabecera{
     width: cal(100vw - var(--scrollBar));
-    background-color: blue;
-    color: white;
-    padding: 7vmin 0;
-    text-align: center;
+    background-color: #fafafa;
+    padding: 10vmin 0;
 }
 
+#cabecera span{
+    margin-left: 20px;
+    color: black;
+    font-size: 28px;
+
+}
 .banner{
     width: 100%;
-    height: 200px;
-    background-color: red;
-    color: white;
-    
+    height: 120vmin;
+    background-color: var(--ColorBanner);
+    color: black;
+    padding: 10vmin 0;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.banner h1,span{
+   text-align: center;
 }
 .banner h1{
-    text-align: center;
-    padding: 5vmin 0;
-    line-height: 100px;
+    margin-top: 0px;
+    margin-bottom: 25px;
 }
+
+.banner span{
+    margin-top: 25px;
+}
+
