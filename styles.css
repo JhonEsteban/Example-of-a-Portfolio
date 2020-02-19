@@ -22,6 +22,21 @@ body{
 
 #cabecera{
     width: cal(100vw - var(--scrollBar));
-    height: 55px;
     background-color: blue;
+    color: white;
+    padding: 7vmin 0;
+    text-align: center;
+}
+
+.banner{
+    width: 100%;
+    height: 200px;
+    background-color: red;
+    color: white;
+    
+}
+.banner h1{
+    text-align: center;
+    padding: 5vmin 0;
+    line-height: 100px;
 }
