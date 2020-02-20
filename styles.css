@@ -47,7 +47,7 @@ img{
     margin-left: 12px;
     color: black;
     font-size: 28px;
-
+    cursor: pointer;
 }
 
 
@@ -134,3 +134,4 @@ img{
     background-color: #9f4040;
 }
 
+/* SECCION PRINCIPAL*/

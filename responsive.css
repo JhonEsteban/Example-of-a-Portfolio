@@ -4,11 +4,29 @@
         padding: 4vmin 0;
     }
 }
-
+@media screen and ( min-width: 444px){
+    .main-banner{
+        height: 105vmin;
+    }
+}
 
 @media screen and ( min-width: 480px){
     .main-banner{
         height: 98vmin;
+    }
+}
+@media screen and ( min-width: 500px){
+    .main-banner{
+        height: 90vmin;
+    }
+@media screen and ( min-width: 566px){
+    .main-banner {
+        height: 80vmin;
+    }
+}
+@media screen and ( min-width:590px){
+    .main-banner {
+        height: 85vmin;
     }
 }
 
@@ -38,9 +56,7 @@
 
 }
 
-@media screen and ( min-width: 640px){
-    /* PONER NOMBRE COMPLETO */
-}
+
 
 @media screen and ( min-width: 768px){
    
@@ -59,9 +75,10 @@
     .main-menu  li a{
         color: black;
         font-size: 20px;
+        transition: all 200ms;
     }
     .main-menu  li a:hover{
-        text-decoration: underline;
+        transform: scale(1.2,1.2);
     }
    
     .main-menu-toggle{
@@ -69,14 +86,14 @@
     }
     #main-header {
         align-items: initial;
-        padding: 3vmin 0;
+        padding: 5vmin 0;
     }
     #main-header span {
         margin-left: 90px;     
     }
 
     .main-banner {
-        height: 60vmin;
+        height: 68vmin;
     }
 }
 
@@ -89,7 +106,7 @@
         margin-right: 30px;
     }
     .main-banner {
-        height: 50vmin;
+        height: 68vmin;
     }
 }
 
@@ -98,7 +115,7 @@
 @media screen and ( min-width: 1024px){
 
     #main-header {
-        padding: 1vmin 0;
+        padding: 4vmin 0;
     }
 
 }
@@ -107,23 +124,31 @@
 @media screen and ( min-width: 1280px){
 
     #main-header {
-        padding: 2vmin 0;
+        padding: 4vmin 0;
     }
     .main-nav {
         margin-right: -310px;
     }
     .main-banner {
-        height: 38vmin;
+        height: 70vmin;
     }
 
     
 }
-
-@media screen and ( min-width: 1440px){
-
-
+@media screen and ( min-width: 1360px){
+    #main-header {
+        padding: 4vmin 0;
+    }
+    .main-banner {
+        height: 65vmin;
+    }
     
 }
 
+/* @media screen and ( min-width: 1440px){
 
-/* RESPOSIVE DEL SECCION PRINCIPAL */
+
+    
+} */
+
+
