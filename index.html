@@ -1,124 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="responsive.css">
-    <title>Document</title>
+    <title>First Web</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
-
 <body>
-
-    <div id="container">
-
-        <!-- HEADER -->
-        <header id="main-header">
-            <span>JHON</span>
-
-            <!-- MENU BURGER -->
-            <div class="main-menu-toggle"></div>
+    
 
 
-            <!-- MENU -->
-            <nav class="main-menu">
-                <ul class="main-nav">
-                    <li><a href="#">Nosotros</a></li>
-                    <li><a href="#">Equipo</a></li>
-                    <li><a href="#">Proyectos</a></li>
-                    <li><a href="#">Precios</a></li>
-                    <li><a href="#">Contacto</a></li>
-                </ul>
-            </nav>
-        </header>
+    <header class="header">
 
-        <!-- BANNER -->
-        <main class="main-banner">
-            <h1>HELLO WORLD!</h1>
-            <span>This is a practice of a responsive website</span>
-            <a href="#" class="btn-main">LogIn</a>
-        </main>
+
+        <nav class="main-nav">
+
+            <p class="main-nav__logo">Esteban Herrera</p>
+
+            <button class="btn-burger" id="btn-burger">
+                <i class="fa fa-bars"></i>
+            </button>
+
+            <ul class="main-menu" id="main-menu"> 
+                <li class="main-menu__item"><a  class="main-menu__link" href="#">Home</a></li>
+                <li class="main-menu__item"><a  class="main-menu__link" href="#">About</a></li>
+                <li class="main-menu__item"><a  class="main-menu__link" href="#">Skills</a></li>
+                <li class="main-menu__item"><a  class="main-menu__link" href="#">Contact</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
 
 
 
 
-        <!-- SECCION PRINCIPAL -->
-
-        <section class="seccion-one">
-
-
-            <article class="p-article-one">
-                <h1>Lorem ipsum dolor sit amet consectetur</h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe quia volupt.
-                </p>
-            </article>
-
-        </section>
-
-        <section class="seccion-two">
-
-            <article>
-                <img src="img/umbrella.svg" alt="umbrella icon">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic nam eveniet unde reiciendis
-                temporibus consequuntur.
-            </article>
-
-            <article>
-                <img src="img/comments-solid.svg" alt="">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic nam eveniet unde reiciendis
-                temporibus consequuntur.
-            </article>
-
-            <article>
-                <img src="img/book-reader-solid.svg" alt="">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic nam eveniet unde reiciendis
-                temporibus consequuntur.
-            </article>
-
-            <article>
-                <img src="img/bag.svg" alt="">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic nam eveniet unde reiciendis
-                temporibus consequuntur.
-            </article>
-
-        </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script src="app.js"></script>
+    <script src="./js/index.js"></script>
 </body>
-
 </html>
