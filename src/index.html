@@ -4,63 +4,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First Web</title>
+    <title>Portfolio</title>
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="/src/css/styles.css">
 </head>
 
 <body>
 
 
-
-    <header class="header ">
-
+    <header class="header">
 
         <nav class="main-nav">
 
-            <p class="main-nav__logo">Esteban Herrera</p>
+            <p class="main-nav__logo">Portfolio</p>
 
             <button class="btn-burger" id="btn-burger">
                 <i class="fa fa-bars"></i>
             </button>
 
             <ul class="main-menu" id="main-menu">
-                <li class="main-menu__item"><a class="main-menu__link" href="#">Home</a></li>
-                <li class="main-menu__item"><a class="main-menu__link" href="#">Skills</a></li>
-                <li class="main-menu__item"><a class="main-menu__link" href="#">About Me</a></li>
-                <li class="main-menu__item"><a class="main-menu__link" href="#">Contact</a></li>
+                <li class="main-menu__item"><a class="main-menu__link" href="#skills">Skills</a></li>
+                <li class="main-menu__item"><a class="main-menu__link" href="#hobbies">Hobbies</a></li>
+                <li class="main-menu__item"><a class="main-menu__link" href="#about-me">About Me</a></li>
+                <li class="main-menu__item"><a class="main-menu__link" href="#contact">Contact</a></li>
             </ul>
 
         </nav>
 
         <div class="hero">
 
-            <img src="img/hero-image.jpg" class="hero__image">
+            <img src="/src/img/hero-image.jpg" class="hero__image">
 
-            <div class="hero__content">
-                <h1 class="hero__title">Lorem, ipsum dolor.</h1>
-                <p class="hero__text">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi labore consequuntur illum iste quis
-                    tempore dolor repellendus velit alias explicabo earum, error sit mollitia veniam sapiente officiis
-                    ea quod! Quam.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi labore consequuntur
-                    illum iste quistempore dolor repellendus velit alias explicabo.
-                </p>
-                <a href="#" class="hero__btn">Learn More</a>
+            <div class="wrapper">
+                <div class="hero__content">
+                    <h1 class="hero__title">My Portfolio</h1>
+                    <p class="hero__text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi labore consequuntur illum iste quis
+                        tempore dolor repellendus velit alias explicabo earum, error sit mollitia veniam sapiente officiis
+                        ea quod! Quam.Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <a href="#about-me" class="btn radius">About Me</a>
+                </div>
             </div>
-
+            
         </div>
 
     </header>
 
 
-    <section class="skill-articles ">
+
+    <section class="skill-articles" id="skills">
         <div class="wrapper">
 
-            <h2 class="skill-articles__title">Skills</h2>
+            <h2 class="title">Skills</h2>
 
             <div class="skill-articles__grid">
-
 
                 <article class="skill-card">
 
@@ -70,11 +72,11 @@
                     <div class="skill-card__content">
                         <h3>HTML</h3>
                         <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                             Id tempora, magnam adipisci totam tempore eos.
                         </p>
                     </div>
-        
+
                 </article>
 
                 <article class="skill-card">
@@ -85,13 +87,12 @@
                     <div class="skill-card__content">
                         <h3>CSS</h3>
                         <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                             Id tempora, magnam adipisci totam tempore eos.
                         </p>
                     </div>
-        
-                </article>
 
+                </article>
 
                 <article class="skill-card">
 
@@ -101,13 +102,12 @@
                     <div class="skill-card__content">
                         <h3>JavaScript</h3>
                         <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                             Id tempora, magnam adipisci totam tempore eos.
                         </p>
                     </div>
-        
-                </article>
 
+                </article>
 
                 <article class="skill-card">
 
@@ -117,11 +117,11 @@
                     <div class="skill-card__content">
                         <h3>Git</h3>
                         <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                             Id tempora, magnam adipisci totam tempore eos.
                         </p>
                     </div>
-        
+
                 </article>
 
             </div>
@@ -130,18 +130,47 @@
     </section>
 
 
+    <section class="hobbies" id="hobbies">
+
+        
+        <div class="wrapper">
+            
+            
+            <article class="hobbies__card">
+                
+                <img src="/src/img/hobbies.png" class="hobbies__image radius" height="250">
+                
+                <div class="hobbies__text">
+                    <h2 class="title">Hobbies</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam doloribus nam eum quidem
+                        animi,eligendi iste dolore quod ex enim atque nemo eaque nostrum voluptatibus vero.
+                    </p>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam doloribus nam eum quidem
+                        animi,eligendi iste dolore quod ex enim atque nemo eaque nostrum voluptatibus vero.
+                    </p>
+
+                    <a href="#contact" class="btn radius">Contact</a>
+                </div>
+
+            </article>
+
+    </section>
 
 
-    <section class="about-articles">
+
+    <section class="about-articles" id="about-me">
         <div class="wrapper">
 
-            <h2 class="about-articles__title">About Me</h2>
+            <h2 class="title">About Me</h2>
 
             <div class="about-articles__grid">
 
                 <article class="about-card">
 
-                    <img height="200" src="./img/skill-1.jpg" class="about-card__image">
+                    <img height="200" src="/src/img/skill-1.jpg" class="about-card__image radius">
 
                     <div class="about-card__content">
                         <h3>Lorem, ipsum dolor.</h3>
@@ -155,7 +184,7 @@
 
                 <article class="about-card">
 
-                    <img height="200" src="./img/skill-2.jpg" class="about-card__image">
+                    <img height="200" src="/src/img/skill-2.jpg" class="about-card__image radius">
 
                     <div class="about-card__content">
                         <h3>Lorem, ipsum dolor.</h3>
@@ -169,7 +198,7 @@
 
                 <article class="about-card">
 
-                    <img height="200" src="./img/skill-3.jpg" class="about-card__image">
+                    <img height="200" src="/src/img/skill-3.jpg" class="about-card__image radius">
 
                     <div class="about-card__content">
                         <h3>Lorem, ipsum dolor.</h3>
@@ -183,7 +212,7 @@
 
                 <article class="about-card">
 
-                    <img height="200" src="./img/skill-4.jpg" class="about-card__image">
+                    <img height="200" src="/src/img/skill-4.jpg" class="about-card__image radius">
 
                     <div class="about-card__content">
                         <h3>Lorem, ipsum dolor.</h3>
@@ -204,7 +233,33 @@
 
 
 
-    <script src="./js/index.js"></script>
+    <section class="contact" id="contact">
+        <div class="wrapper">
+
+            <h2 class="title">Contact</h2>
+            
+            <div class="contact__container">
+
+                <form class="contact__form">
+
+                    <input class="contact__input" type="text" placeholder="Name">
+
+                    <input class="contact__input" type="text" placeholder="Email">
+
+                    <textarea cols="30" rows="10">                        
+                    </textarea>
+
+                    <button type="submit" class="btn radius">Send</button>
+
+                </form>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <script src="/src/js/index.js"></script>
 </body>
 
 </html>
