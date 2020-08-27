@@ -3,14 +3,14 @@
 Example of a portfolio for a developer using HTML, CSS and JavaScript.
 
 
-#### Desktop design
+### Desktop design
 ___
-![Desktop design](./src/img/desktop.png "Desktop") 
+![Desktop design](img/desktop.png "Desktop") 
 
 
-#### Mobile design
+### Mobile design
 ___
-![Mobile design](./src/img/mobile.png "Mobile") 
+![Mobile design](img/mobile.png "Mobile") 
 
 
 ## Social networks:
